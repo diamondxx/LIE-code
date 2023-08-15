@@ -1,13 +1,9 @@
 # LIE-code
 ## Event-based Low-illumination Image Enhancement ([TMM](https://ieeexplore.ieee.org/abstract/document/10168206))
 
-![Figure1](https://github.com/diamondxx/LIE-code/assets/37398726/62396571-8d63-4a79-9559-3e2b59922a15)
-
 Welcome to the repository for our project on Event-based Low-illumination Image Enhancement. 
 
-## Dataset
-The LIE Dataset used in our research can be downloaded from [data](link_to_dataset).
-![Figure3](https://github.com/diamondxx/LIE-code/assets/37398726/dacc9208-95f8-4d03-a42e-607ece01f7a7)
+![Figure1](https://github.com/diamondxx/LIE-code/assets/37398726/62396571-8d63-4a79-9559-3e2b59922a15){width=50%}
 
 ## Pretrained Models
 We provide the following pre-trained models for your use:
@@ -15,6 +11,10 @@ We provide the following pre-trained models for your use:
 - Indoor model: [indoor_model](link_to_indoor_model)
 - Outdoor model: [outdoor_model](link_to_outdoor_model)
 - Total model: [total_model](link_to_total_model)
+
+## Dataset
+The LIE Dataset used in our research can be downloaded from [data](link_to_dataset).
+![Figure3](https://github.com/diamondxx/LIE-code/assets/37398726/dacc9208-95f8-4d03-a42e-607ece01f7a7){width=50%}
 
 ## Test
 To test the performance of our models, you can use the provided code.
