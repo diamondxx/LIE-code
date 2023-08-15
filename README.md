@@ -3,7 +3,7 @@
 
 Welcome to the repository for our project on Event-based Low-illumination Image Enhancement. 
 
-<img src="https://github.com/diamondxx/LIE-code/assets/37398726/62396571-8d63-4a79-9559-3e2b59922a15" width="50%">
+<img src="https://github.com/diamondxx/LIE-code/assets/37398726/62396571-8d63-4a79-9559-3e2b59922a15" width="40%">
 
 ## Pretrained Models
 We provide the following pre-trained models for your use:
@@ -16,7 +16,7 @@ We provide the following pre-trained models for your use:
 The LIE Dataset used in our research can be downloaded from [data](link_to_dataset).
 
 
-<img src="https://github.com/diamondxx/LIE-code/assets/37398726/dacc9208-95f8-4d03-a42e-607ece01f7a7" width="50%">
+<img src="https://github.com/diamondxx/LIE-code/assets/37398726/dacc9208-95f8-4d03-a42e-607ece01f7a7" width="40%">
 
 ## Test
 To test the performance of our models, you can use the provided code.
@@ -34,7 +34,6 @@ If you wish to train on your own data, please read and execute the `train.py` sc
 
 More detailed parameter configurations can be found in the `config` file.
 
-[Figure5.pdf](https://github.com/diamondxx/LIE-code/files/12342722/Figure5.pdf)
 
 ## Acknowledgments
 The codebase for this project is built upon the foundation of [pytorch-template](https://github.com/victoresque/pytorch-template) and [Restormer](https://github.com/swz30/Restormer)'s work.
