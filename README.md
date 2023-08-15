@@ -15,18 +15,15 @@ We provide the following pre-trained models for your use:
 
 ## Test
 To test the performance of our models, you can use the provided code.
-Once you have configured the specific paths, you can run the following code. The pre-trained models should be placed in the pre-trained directory, while the datasets and scenarios need to be stored in the data directory. The visualized results and metrics will be saved in the result directory.
+
+Once you have configured the specific paths, you can run the following code. The pre-trained models should be placed in the `pretrained` directory, while the datasets and scenarios need to be stored in the `data` directory. The visualized results and metrics will be saved in the `result` directory.
 ```python
 # Example code for testing
  python Test_Ours.py --resume ./pretrained/model_indoor.pth --data ./data/LIEDataset/orig_indoor_test --save ./result/display_indoor/
 ```
 
 ## Train
-If you wish to train the models on your own data, you can use the provided training code.
-```python
-# Example code for training
-# ...
-```
+If you wish to train on your own data, please read and execute the `train.py` script, and modify the corresponding parameter settings. More detailed parameter configurations can be found in the `config` file.
 
 ## Acknowledgments
 The codebase for this project is built upon the foundation of [pytorch-template](https://github.com/victoresque/pytorch-template) and [Restormer](https://github.com/swz30/Restormer)'s work.
@@ -34,7 +31,7 @@ The codebase for this project is built upon the foundation of [pytorch-template]
 ## Citation
 
 If you find our work useful, please consider citing our paper:
-
+```
 @ARTICLE{10168206,
   author={Jiang, Yu and Wang, Yuehang and Li, Siqi and Zhang, Yongji and Zhao, Minghao and Gao, Yue},
   journal={IEEE Transactions on Multimedia},
@@ -45,3 +42,4 @@ If you find our work useful, please consider citing our paper:
   pages={1-12},
   doi={10.1109/TMM.2023.3290432}
 }
+```
