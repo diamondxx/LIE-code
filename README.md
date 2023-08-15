@@ -1,29 +1,36 @@
 # LIE-code
-## Event-based Low-illumination Image Enhancement in TMM
+## [Event-based Low-illumination Image Enhancement](https://ieeexplore.ieee.org/abstract/document/10168206) (TMM)
+[Figure1.pdf](https://github.com/diamondxx/LIE-code/files/12342710/Figure1.pdf)
 
 Welcome to the repository for our project on Event-based Low-illumination Image Enhancement. 
 
 ## Dataset
-The LIE Dataset used in our research can be downloaded from [BaiduYun](link_to_dataset).
+The LIE Dataset used in our research can be downloaded from [data](link_to_dataset).
 
 ## Pretrained Models
 We provide the following pre-trained models for your use:
 
-- Indoor model: [BaiduYun](link_to_indoor_model)
-- Outdoor model: [BaiduYun](link_to_outdoor_model)
-- Total model: [BaiduYun](link_to_total_model)
+- Indoor model: [indoor_model](link_to_indoor_model)
+- Outdoor model: [outdoor_model](link_to_outdoor_model)
+- Total model: [total_model](link_to_total_model)
 
 ## Test
 To test the performance of our models, you can use the provided code.
 
-Once you have configured the specific paths, you can run the following code. The pre-trained models should be placed in the `pretrained` directory, while the datasets and scenarios need to be stored in the `data` directory. The visualized results and metrics will be saved in the `result` directory.
+Once you have configured the specific paths, you can run the following code. The pre-trained models should be placed in the `pretrained` directory, while the datasets and scenarios need to be stored in the `data` directory. 
+
+The visualized results and metrics will be saved in the `result` directory.
 ```python
 # Example code for testing
  python Test_Ours.py --resume ./pretrained/model_indoor.pth --data ./data/LIEDataset/orig_indoor_test --save ./result/display_indoor/
 ```
 
 ## Train
-If you wish to train on your own data, please read and execute the `train.py` script, and modify the corresponding parameter settings. More detailed parameter configurations can be found in the `config` file.
+If you wish to train on your own data, please read and execute the `train.py` script, and modify the corresponding parameter settings. 
+
+More detailed parameter configurations can be found in the `config` file.
+
+[Figure5.pdf](https://github.com/diamondxx/LIE-code/files/12342722/Figure5.pdf)
 
 ## Acknowledgments
 The codebase for this project is built upon the foundation of [pytorch-template](https://github.com/victoresque/pytorch-template) and [Restormer](https://github.com/swz30/Restormer)'s work.
