@@ -3,7 +3,7 @@
 
 Welcome to the repository for our project on Event-based Low-illumination Image Enhancement. 
 
-<img src="https://github.com/diamondxx/LIE-code/assets/37398726/62396571-8d63-4a79-9559-3e2b59922a15" width="60%">
+<img src="./img/Figure1.jpg" width="60%">
 
 ## Pretrained Models
 We provide the following pre-trained models for your use:
@@ -16,7 +16,7 @@ We provide the following pre-trained models for your use:
 The LIE Dataset used in our research can be downloaded from [data](https://pan.baidu.com/s/1-rqECDLC8f_kONXV792-Iw?pwd=yi11).
 
 
-<img src="https://github.com/diamondxx/LIE-code/assets/37398726/dacc9208-95f8-4d03-a42e-607ece01f7a7" width="60%">
+<img src="./img/Figure3.jpg" width="60%">
 
 ## Test
 To test the performance of our models, you can use the provided code.
