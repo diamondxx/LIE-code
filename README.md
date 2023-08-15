@@ -19,13 +19,14 @@ To test the performance of our models, you can use the provided code.
 ```python
 # Example code for testing
 # ...
+```
 
 ## Train
 If you wish to train the models on your own data, you can use the provided training code.
 ```python
 # Example code for training
 # ...
-
+```
 
 ## Acknowledgments
 The codebase for this project is built upon the foundation of Restormer's work.
