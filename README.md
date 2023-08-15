@@ -1,11 +1,13 @@
 # LIE-code
-## [Event-based Low-illumination Image Enhancement](https://ieeexplore.ieee.org/abstract/document/10168206) (TMM)
-[Figure1.pdf](https://github.com/diamondxx/LIE-code/files/12342710/Figure1.pdf)
+## Event-based Low-illumination Image Enhancement ([TMM](https://ieeexplore.ieee.org/abstract/document/10168206))
+
+![Figure1](https://github.com/diamondxx/LIE-code/assets/37398726/62396571-8d63-4a79-9559-3e2b59922a15)
 
 Welcome to the repository for our project on Event-based Low-illumination Image Enhancement. 
 
 ## Dataset
 The LIE Dataset used in our research can be downloaded from [data](link_to_dataset).
+![Figure3](https://github.com/diamondxx/LIE-code/assets/37398726/dacc9208-95f8-4d03-a42e-607ece01f7a7)
 
 ## Pretrained Models
 We provide the following pre-trained models for your use:
