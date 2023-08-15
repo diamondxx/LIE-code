@@ -29,7 +29,7 @@ If you wish to train the models on your own data, you can use the provided train
 ```
 
 ## Acknowledgments
-The codebase for this project is built upon the foundation of Restormer's work.
+The codebase for this project is built upon the foundation of [Restormer](https://github.com/swz30/Restormer)'s work.
 
 ## Citation
 
