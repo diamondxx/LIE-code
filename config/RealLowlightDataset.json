@@ -1,0 +1,68 @@
+{
+    "name": "RealLowLight",
+    "n_gpu": 4,
+
+    "arch": {
+        "type": "pyramidTransformer",
+        "args": {
+            "input_c_frame": 3,
+            "input_c_event": 5,
+            "output_c": 3
+        }
+    },
+    "dataset": {
+        "type": "RealLowlightDataset",
+        "args": {
+            "is_cat": true,
+            "is_crop": true,
+            "crop_size": 256,
+            "event_rgb_separate_input": true,
+            "train_data_dir": "data/LIEDataset/train_total",
+            "val_data_dir": "data/LIEDataset/test_total",
+            "duration_ms": 33.33,
+            "num_events":10000,
+            "start_index": 0,
+            "bin_num": 5,
+            "width": 346,
+            "height": 260,
+            "img_channels": 3
+        }
+    },
+    "data_loader": {
+        "batch_size": 4,
+        "shuffle": true, 
+        "shuffle_val": true,
+        "num_workers": 4
+    },
+    "optimizer": {
+        "type": "Adam",
+        "args":{
+            "lr": 0.0001,
+            "weight_decay": 0,
+            "amsgrad": true
+        }
+    },
+    "loss": "lpips_l1_multi_new",
+    "metrics": [
+        "ssim",
+        "psnr"
+    ],
+    "lr_scheduler": {
+        "type": "StepLR",
+        "args": {
+            "step_size": 30,
+            "gamma": 0.1
+        }
+    },
+    "trainer": {
+        "epochs": 1000,
+        "save_dir": "saved/906_1_ours_wo_RFM_total/",
+        "save_period": 1,
+        "verbosity": 2,
+        
+        "monitor": "min val_loss",
+        "early_stop": 100,
+
+        "tensorboard": true
+    }
+}
