@@ -15,10 +15,10 @@ We provide the following pre-trained models for your use:
 
 ## Test
 To test the performance of our models, you can use the provided code.
-
+Once you have configured the specific paths, you can run the following code. The pre-trained models should be placed in the pre-trained directory, while the datasets and scenarios need to be stored in the data directory. The visualized results and metrics will be saved in the result directory.
 ```python
 # Example code for testing
-# ...
+ python Test_Ours.py --resume ./pretrained/model_indoor.pth --data ./data/LIEDataset/orig_indoor_test --save ./result/display_indoor/
 ```
 
 ## Train
