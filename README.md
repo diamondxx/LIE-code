@@ -44,12 +44,12 @@ If you find our work useful, please consider citing our paper:
 ```
 @ARTICLE{10168206,
   author={Jiang, Yu and Wang, Yuehang and Li, Siqi and Zhang, Yongji and Zhao, Minghao and Gao, Yue},
-  journal={IEEE Transactions on Multimedia},
-  title={Event-based Low-illumination Image Enhancement},
-  year={2023},
-  volume={},
+  journal={IEEE Transactions on Multimedia}, 
+  title={Event-Based Low-Illumination Image Enhancement}, 
+  year={2024},
+  volume={26},
   number={},
-  pages={1-12},
-  doi={10.1109/TMM.2023.3290432}
-}
+  pages={1920-1931},
+  doi={10.1109/TMM.2023.3290432}}
+
 ```
